@@ -1,0 +1,23 @@
+{
+  "name": "the-website",
+  "version": "1.0.0",
+  "description": "My attempt at an awesome website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steinerghost/the-website.git"
+  },
+  "author": "Casey Ford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Steinerghost/the-website/issues"
+  },
+  "homepage": "https://github.com/Steinerghost/the-website#readme",
+  "dependencies": {
+	  "express": "^4.15.3",
+	  "express-handlebars": "^3.0.0"
+  }
+}

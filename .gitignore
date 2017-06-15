@@ -5,3 +5,4 @@
 Sesson.vim
 .netrwhist
 *~
+*node_modules/*
