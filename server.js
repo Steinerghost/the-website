@@ -14,7 +14,7 @@ app.get('/index', function (req, res, next) {
 	var templateArgs ={
 	}
 
-	res.render('index', templateArgs);
+	res.render('home', templateArgs);
 });
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -22,3 +22,4 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.listen(port, function() {
 	console.log("== Server listening on port", port);
 });
+
