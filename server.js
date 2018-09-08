@@ -9,12 +9,9 @@ var port = process.env.PORT || 3000;
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
-app.get('/index', function (req, res, next) {
+app.get('/', function (req, res, next) {
 
-	var templateArgs ={
-	}
-
-	res.render('home', templateArgs);
+	res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.use(express.static(path.join(__dirname, 'public')));
