@@ -1,15 +1,18 @@
 body{
     margin: 0;
-    background-color: #efeded;
+    background-color: #e8e8e8;
 }
 
 .site-title{
     margin: 0;
-    background-color: #32ad37;
+    background-color: #269bfa;
+    color: white;
+    padding: 5px;
+    font-style: italic;
 }
 
 .navbar{
-    background-color: #95e098;
+    background-color: #c2e4ff;
 }
 
 .navlist{
@@ -46,4 +49,97 @@ body{
     height: auto;
     border: 5px solid black;
     margin: 10px;
+}
+
+.table{
+    margin-left: 20px;
+}
+
+.table-title{
+    margin-bottom: 0px;
+}
+
+.exp-contents{
+    margin-top: 0px;
+}
+
+.experience{
+    display: inline-block;
+    border: 5px solid black;
+    margin: 10px;
+    width: 1000px;
+    background-color: white;
+}
+
+.job-overview{
+    width: 450px;
+    display: inline-block;
+}
+
+.org-pic{
+    height: auto;
+    width: 400px;
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.organization{
+    font-size: 20pt;
+    width: 400px;
+    margin: 0px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.job-title{
+    font-weight: bold;
+    display: block;
+    margin: 0px;
+    width: 400px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.date-worked{
+    display: inline-block;
+    margin: 0px;
+    width: 400px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.skills-title{
+    margin-bottom: 0px;
+}
+
+.skills-list{
+    margin: 0px;
+}
+
+.responsibility-title{
+    margin-bottom: 0px;
+}
+
+.responsibilities-list{
+    margin: 0px;
+}
+
+.brief-points{
+    display: inline-block;
+    vertical-align: top;
+    width: 525px;
+}
+
+.description-div{
+    margin-left: 20px;
+}
+
+.description-title{
+    margin-bottom: 0px;
+}
+
+.description{
+    margin-top: 0px;
 }

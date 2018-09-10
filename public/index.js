@@ -3,11 +3,11 @@ $(function(){
     $("body").on("mouseenter", ".navitem", function(){
         $(this).css({
             "border-bottom-width": "3px", 
-            "border-bottom-color": "black"
+            "border-bottom-color": "#269bfa"
         });
         $(this).css({
             "padding-bottom": "7px", 
-            "border-bottom-color": "black"
+            "border-bottom-color": "#269bfa"
         });
 //        $(this).css({"background-color": "black"});
 
