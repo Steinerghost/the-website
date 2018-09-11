@@ -64,9 +64,8 @@ body{
 }
 
 .experience{
-    display: inline-block;
     border: 5px solid black;
-    margin: 10px;
+    margin: 10px auto;
     width: 1000px;
     background-color: white;
 }
@@ -142,5 +141,19 @@ body{
 }
 
 .description{
-    margin-top: 0px
+    margin-top: 0px;
+}
+
+.links-title{
+    margin-bottom: 0px;
+}
+
+.relevant-links{
+    margin-top: 0px;
+}
+
+.exp-link{
+    font-weight: bold;
+    font-size: 16pt;
+    margin-bottom: 7px;
 }
