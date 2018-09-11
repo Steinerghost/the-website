@@ -134,6 +134,7 @@ body{
 
 .description-div{
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .description-title{
@@ -141,5 +142,5 @@ body{
 }
 
 .description{
-    margin-top: 0px;
+    margin-top: 0px
 }
