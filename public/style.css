@@ -3,7 +3,19 @@ body{
     background-color: #e8e8e8;
 }
 
+#include_header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+
+.spacer{
+    height: 75px;
+}
+
 .site-title{
+    width: 100%;
     margin: 0;
     background-color: #269bfa;
     color: white;

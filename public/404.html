@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Casey's Website</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<header>
-		<h1 class="site-title">Caseytopia</h1>
+    <head>
+        <meta charset="utf-8">
+        <title>Casey's Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
 
-		<nav class="navbar">
-			<ul class="navlist">
-				<li class="navitem"> 
-					<a class="navlink" href="./index.html">Home</a> 
-				</li>
-				<li class="navitem"> 
-					<a class="navlink" href="./games.html">Games</a>
-				</li>
-				<li class="navitem" id="nav-right"> 
-					<a class="navlink" href="./login.html">Login</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+    <body>
+        <div id="include_header"></div>
+        <div class="spacer"></div>
+        <h1 class=print-error> Error 404 Page Not Found! </h1>
 
-	<h1 class=print-error> Error 404 Page Not Found! </h1>
+    </body>
+    <script>
+        $(function(){
 
+            $("#include_header").load("header.html");
+
+        });
+    </script>
 </html>
