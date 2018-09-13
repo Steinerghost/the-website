@@ -7,6 +7,7 @@ body{
     position: fixed;
     top: 0px;
     width: 100%;
+    min-width: 800px;
 }
 
 
@@ -63,12 +64,37 @@ body{
     margin: 10px;
 }
 
+.experience-summary{
+    width: 100%;
+    height: 100%;
+}
+
 .table{
-    margin-left: 20px;
+    position: fixed;
+    display: inline-block;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 3px solid black;
+    background-color: white;
+    height: 100%;
 }
 
 .table-title{
     margin-bottom: 0px;
+}
+
+.an-exp{
+    font-size: 13pt;
+    padding-bottom: 8px;
+}
+
+.exp-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: center;
+    margin-left: 350px;
 }
 
 .exp-contents{
@@ -78,7 +104,7 @@ body{
 .experience{
     border: 5px solid black;
     margin: 10px auto;
-    width: 1000px;
+    min-width: 1000px;
     background-color: white;
 }
 
@@ -144,8 +170,9 @@ body{
 }
 
 .description-div{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
 }
 
 .description-title{
@@ -154,6 +181,7 @@ body{
 
 .description{
     margin-top: 0px;
+    max-width: 50em;
 }
 
 .links-title{
