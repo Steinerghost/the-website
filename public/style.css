@@ -64,11 +64,6 @@ body{
     margin: 10px;
 }
 
-.experience-summary{
-    width: 100%;
-    height: 100%;
-}
-
 .table{
     position: fixed;
     display: inline-block;
@@ -90,17 +85,17 @@ a.anchor{
     visibility: hidden;
 }
 
-.exp-contents{
+.exp-contents, .project-contents{
     padding: 5px;
 }
 
-.an-exp{
+.an-exp, .a-project{
     font-size: 13pt;
     padding-bottom: 8px;
     list-style: none;
 }
 
-.exp-container{
+.exp-container, .project-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,23 +103,23 @@ a.anchor{
     margin-left: 350px;
 }
 
-.exp-contents{
+.exp-contents, .project-contents{
     margin-top: 0px;
 }
 
-.experience{
+.experience, .project{
     border: 5px solid black;
     margin: 10px auto;
     min-width: 1000px;
     background-color: white;
 }
 
-.job-overview{
+.job-overview, .project-overview{
     width: 450px;
     display: inline-block;
 }
 
-.org-pic{
+.org-pic, .project-pic{
     height: auto;
     width: 400px;
     display: inline-block;
@@ -141,7 +136,7 @@ a.anchor{
     margin-left: 20px;
 }
 
-.job-title{
+.job-title, .project-title{
     font-weight: bold;
     display: block;
     margin: 0px;
@@ -203,7 +198,7 @@ a.anchor{
     margin-top: 0px;
 }
 
-.exp-link{
+.exp-link, .project-link{
     font-weight: bold;
     font-size: 16pt;
     margin-bottom: 7px;
